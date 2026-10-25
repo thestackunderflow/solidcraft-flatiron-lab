@@ -93,6 +93,7 @@ def pair():
 FRONT = view([-20, 2, 38], 0.0, 0.18, 205)          # from the south, a little above: widths and heights side by side
 PAIR_ISO = view([-20, 2, 30], -0.55, 0.5, 215)      # from the south-west, looking down a little
 BLOCK_ISO = view([0, 0, 18], -0.7854, 0.6, 250)
+BLOCK_SW = view([0, 0, 20], 0.5, 0.45, 245)        # from the south-east, lower
 
 
 def block():
@@ -103,6 +104,7 @@ JOBS = {
     'pair-front': lambda: pair() + FRONT,
     'pair-iso': lambda: pair() + PAIR_ISO,
     'block-iso': lambda: block() + BLOCK_ISO,
+    'block-se': lambda: block() + BLOCK_SW,
 }
 
 if __name__ == '__main__':

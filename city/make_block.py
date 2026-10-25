@@ -28,11 +28,19 @@ PLATE_MM = (120.0, 90.0)
 BASE_MM = 2.0
 MM_PER_M = 1.0                     # 1:1000
 AT_MM = [-PLATE_MM[0] / 2, PLATE_MM[1] / 2]   # SolidCraft puts the drawing's top-left corner at `at` (probe: measured)
+BED_Z_MM = 170.0                   # PLAN §4.3: Z <= 170 on the printer's bed
+
+
+class BlockError(Exception):
+    """A place the lab cannot build as asked: the message says why and what to change."""
 
 
 def build(overpass):
     ways = [e for e in overpass['elements'] if e['type'] == 'way' and e.get('geometry')]
-    focus = next(e for e in ways if e['id'] == FOCUS_WAY)
+    focus = next((e for e in ways if e['id'] == FOCUS_WAY and 'building' in e.get('tags', {})), None)
+    if focus is None:
+        raise BlockError(f'FOCUS_WAY {FOCUS_WAY} is not a building way in the response: use the number from '
+                         f'openstreetmap.org/way/<number> (a /relation/ number names something else)')
     lat0, lon0 = F.centre(focus['geometry'])
     hw, hh = PLATE_MM[0] / 2, PLATE_MM[1] / 2
     kept, dropped = [], []
@@ -57,6 +65,10 @@ def build(overpass):
                      'clipped': len(cut) != len(F._open(mm)) or F.area(cut) < F.area(mm) - 1e-6,
                      'area_mm2': F.area(cut), 'mm': [(round(x, 4), round(y, 4)) for x, y in cut]})
     f = next(b for b in kept if b['id'] == FOCUS_WAY)
+    tall = [b for b in kept if b['height_m'] * MM_PER_M + BASE_MM > BED_Z_MM]
+    if tall:
+        raise BlockError(f"too tall for a {BED_Z_MM:g} mm printer at 1:1000: " + ', '.join(
+            f"way {b['id']} ({b['height_m']:g} m + {BASE_MM:g} mm plate)" for b in tall) + '; pick another place or a smaller scale')
     return {'focus': f, 'buildings': kept, 'dropped': dropped, 'centre_lat_lon': [lat0, lon0],
             'plate_mm': list(PLATE_MM), 'base_mm': BASE_MM, 'scale': '1:1000',
             'counts': {'kept': len(kept), 'height_tag': sum(1 for b in kept if b['rule'] == 'height tag'),

@@ -1,4 +1,4 @@
 PrusaSlicer 2.9.2 · MK4S 0.4 · PLA
-0.2 mm layers · slicer estimate
-3h 6m 33s · 103 g
+FAST DETAIL preset · 0.2 mm layers
+3h 6m 33s · 103 g · estimate
 one part, no open edges

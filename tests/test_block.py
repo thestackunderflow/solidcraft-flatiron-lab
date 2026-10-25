@@ -93,3 +93,23 @@ def test_block_command_file_has_a_plate_and_one_extrude_per_building(block):
 def test_hand_volume_of_the_block(block):
     v = sum(b['area_mm2'] * b['height_m'] for b in block['buildings']) + B.PLATE_MM[0] * B.PLATE_MM[1] * B.BASE_MM
     assert block['hand_volume_mm3'] == pytest.approx(v)
+
+
+def _fake(focus_height='86', other_height='20', focus_id=264768896, kind='way'):
+    sq = lambda la, lo, d: [{'lat': la, 'lon': lo}, {'lat': la, 'lon': lo + d}, {'lat': la + d, 'lon': lo + d},
+                            {'lat': la + d, 'lon': lo}, {'lat': la, 'lon': lo}]
+    return {'elements': [
+        {'type': kind, 'id': focus_id, 'tags': {'building': 'yes', 'height': focus_height}, 'geometry': sq(40.0, -74.0, 0.0002)},
+        {'type': 'way', 'id': 2, 'tags': {'building': 'yes', 'height': other_height}, 'geometry': sq(40.0001, -73.9996, 0.0001)}]}
+
+
+def test_a_tower_too_tall_for_the_printer_is_refused_with_a_reason():
+    """Your own place (maker review): a tower whose height + the 2 mm plate passes 170 mm will not fit the bed."""
+    with pytest.raises(B.BlockError, match='170'):
+        B.build(_fake(other_height='200'))
+
+
+def test_the_focus_number_must_be_a_building_way():
+    """A relation number, or a way that is not a building, stops with a plain message (not a bare StopIteration)."""
+    with pytest.raises(B.BlockError, match='way'):
+        B.build(_fake(kind='relation'))

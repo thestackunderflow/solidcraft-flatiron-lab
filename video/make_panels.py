@@ -119,7 +119,7 @@ def main():
     write('video/terminal-north.txt', '\n'.join([
         f"the map's narrow end: {n['map_bearing']}°",
         f"our model: {n['mm_bearing']}°",
-        f"north left as screen-down: {n['mirror_bearing']}°",
+        f"north flipped by mistake: {n['mirror_bearing']}°",
     ]))
     write('video/terminal-block.txt', '\n'.join([
         f"{n['buildings']} buildings on a 120 x 90 mm plate",
@@ -130,8 +130,8 @@ def main():
     ]))
     write('video/terminal-slicer.txt', '\n'.join([
         'PrusaSlicer 2.9.2 · MK4S 0.4 · PLA',
-        '0.2 mm layers · slicer estimate',
-        f"{n['slice_time']} · {n['slice_g']} g",
+        'FAST DETAIL preset · 0.2 mm layers',
+        f"{n['slice_time']} · {n['slice_g']} g · estimate",
         'one part, no open edges',
     ]))
     if 'runs' in n:
@@ -157,10 +157,11 @@ def main():
         tcs.append({'id': tid, 'evidence': f"{ev(cell)}#seq={seq}", 'tool': 'measure', 'result': res, 'plain': plain})
     write('video/toolcalls.json', json.dumps(tcs, indent=1))
 
-    first = line_no('data/overpass.json', '"building:levels": "21"')
-    h = line_no('data/overpass.json', '"height": "86"', first)
-    cards = [{'id': 'json-tags', 'src': f'data/overpass.json#L{first}-{h + 1}', 'source_kind': 'the Overpass response we saved',
-              'focus': [h], 'spoken': 'height, 86, in quotes'}]
+    # the card: 3 of the Flatiron's tags copied from the saved response, values unchanged (teacher review: <= 6 rows)
+    tags = next(e for e in jload('data', 'overpass.json')['elements'] if e['id'] == 264768896)['tags']
+    write('video/flatiron-tags.json', json.dumps({k: tags[k] for k in ('building:levels', 'height', 'name')}, indent=4, ensure_ascii=False))
+    cards = [{'id': 'json-tags', 'src': 'video/flatiron-tags.json#L1-5', 'source_kind': f"3 of the Flatiron's {len(tags)} tags, from the saved Overpass response",
+              'focus': [3], 'spoken': 'height, 86, in quotes'}]
     write('video/json-cards.json', json.dumps(cards, indent=1))
     a = line_no('city/footprints.py', 'def corner(')
     write('video/python-cards.json', json.dumps([

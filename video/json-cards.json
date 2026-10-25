@@ -1,10 +1,10 @@
 [
  {
   "id": "json-tags",
-  "src": "data/overpass.json#L810-813",
-  "source_kind": "the Overpass response we saved",
+  "src": "video/flatiron-tags.json#L1-5",
+  "source_kind": "3 of the Flatiron's 31 tags, from the saved Overpass response",
   "focus": [
-   812
+   3
   ],
   "spoken": "height, 86, in quotes"
  }

@@ -1,0 +1,22 @@
+...........FF                                                            [100%]
+=================================== FAILURES ===================================
+________ test_a_tower_too_tall_for_the_printer_is_refused_with_a_reason ________
+
+    def test_a_tower_too_tall_for_the_printer_is_refused_with_a_reason():
+        """Your own place (maker review): a tower whose height + the 2 mm plate passes 170 mm will not fit the bed."""
+>       with pytest.raises(B.BlockError, match='170'):
+E       AttributeError: module 'city.make_block' has no attribute 'BlockError'
+
+tests/test_block.py:108: AttributeError
+_________________ test_the_focus_number_must_be_a_building_way _________________
+
+    def test_the_focus_number_must_be_a_building_way():
+        """A relation number, or a way that is not a building, stops with a plain message (not a bare StopIteration)."""
+>       with pytest.raises(B.BlockError, match='way'):
+E       AttributeError: module 'city.make_block' has no attribute 'BlockError'
+
+tests/test_block.py:114: AttributeError
+=========================== short test summary info ============================
+FAILED tests/test_block.py::test_a_tower_too_tall_for_the_printer_is_refused_with_a_reason
+FAILED tests/test_block.py::test_the_focus_number_must_be_a_building_way - At...
+2 failed, 11 passed in 0.14s

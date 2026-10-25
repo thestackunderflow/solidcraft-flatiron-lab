@@ -1,3 +1,3 @@
 the map's narrow end: 11.6°
 our model: 11.6°
-north left as screen-down: 168.4°
+north flipped by mistake: 168.4°

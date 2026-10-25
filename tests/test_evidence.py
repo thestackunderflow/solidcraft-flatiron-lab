@@ -72,3 +72,14 @@ def test_python_cards_fit():
         a, b = map(int, r.split('-'))
         rows = open(P(f), encoding='utf-8').read().splitlines()[a - 1:b]
         assert len(rows) <= 6 and all(len(l) <= 45 for l in rows)
+
+
+def test_tags_card_is_a_verbatim_extract_of_the_saved_response():
+    """The JSON card (teacher review: <= 6 rows) shows 3 of the Flatiron's tags, copied with their values unchanged."""
+    ex = jload('video', 'flatiron-tags.json')
+    tags = next(e for e in jload('data', 'overpass.json')['elements'] if e['id'] == 264768896)['tags']
+    assert list(ex) == ['building:levels', 'height', 'name'] and all(ex[k] == tags[k] for k in ex)
+    raw = open(P('video', 'flatiron-tags.json'), encoding='utf-8').read().splitlines()
+    assert len(raw) == 5 and all(l.strip().rstrip(',') in open(P('data', 'overpass.json'), encoding='utf-8').read() for l in raw[1:4])
+    c = jload('video', 'json-cards.json')[0]
+    assert c['src'] == 'video/flatiron-tags.json#L1-5' and raw[c['focus'][0] - 1].strip() == '"height": "86",'
