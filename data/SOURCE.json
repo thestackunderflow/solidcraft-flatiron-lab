@@ -1,0 +1,13 @@
+{
+ "source": "OpenStreetMap via the Overpass API",
+ "url": "https://overpass-api.de/api/interpreter",
+ "query": "[out:json][timeout:60];way(264768896)->.f;(.f;way[\"building\"](around.f:80););out geom tags;",
+ "focus_way": 264768896,
+ "radius_m": 80,
+ "fetched_utc": "2026-10-25T00:34:28+00:00",
+ "file": "data/overpass.json",
+ "bytes": 31068,
+ "sha256": "c763a956b60f9b60896e6dad3606623f768a02ad9e6512115acd7514e1d210e0",
+ "licence": "ODbL 1.0",
+ "credit": "© OpenStreetMap contributors, https://www.openstreetmap.org/copyright (ODbL)"
+}

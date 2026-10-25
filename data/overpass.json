@@ -1,0 +1,1130 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-25T00:32:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 248773513,
+  "bounds": {
+    "minlat": 40.7403060,
+    "minlon": -73.9902058,
+    "maxlat": 40.7405545,
+    "maxlon": -73.9898601
+  },
+  "geometry": [
+    { "lat": 40.7403060, "lon": -73.9899680 },
+    { "lat": 40.7404057, "lon": -73.9902058 },
+    { "lat": 40.7404304, "lon": -73.9901879 },
+    { "lat": 40.7405356, "lon": -73.9901116 },
+    { "lat": 40.7405545, "lon": -73.9900979 },
+    { "lat": 40.7404548, "lon": -73.9898601 },
+    { "lat": 40.7403060, "lon": -73.9899680 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:housename": "Scribner Building",
+    "addr:housenumber": "155",
+    "addr:postcode": "10010",
+    "addr:state": "NY",
+    "addr:street": "5th Avenue",
+    "architect": "Ernest Flagg",
+    "building": "yes",
+    "building:architecture": "beaux-arts",
+    "building:levels": "6",
+    "ele": "12",
+    "gnis:feature_id": "2083051",
+    "height": "31.3",
+    "heritage": "5",
+    "heritage:operator": "lpc",
+    "heritage:website": "https://www1.nyc.gov/site/lpc/index.page",
+    "lpc:inscription_date": "1976",
+    "max_level": "5",
+    "nycdoitt:bin": "1016240",
+    "ref:lpc": "0935",
+    "wikidata": "Q3701950"
+  }
+},
+{
+  "type": "way",
+  "id": 248773588,
+  "bounds": {
+    "minlat": 40.7401795,
+    "minlon": -73.9899788,
+    "maxlat": 40.7402998,
+    "maxlon": -73.9896620
+  },
+  "geometry": [
+    { "lat": 40.7402575, "lon": -73.9898577 },
+    { "lat": 40.7402416, "lon": -73.9896620 },
+    { "lat": 40.7401795, "lon": -73.9896707 },
+    { "lat": 40.7401894, "lon": -73.9897931 },
+    { "lat": 40.7402645, "lon": -73.9899788 },
+    { "lat": 40.7402998, "lon": -73.9899532 },
+    { "lat": 40.7402902, "lon": -73.9899316 },
+    { "lat": 40.7402575, "lon": -73.9898577 }
+  ],
+  "tags": {
+    "addr:housenumber": "927",
+    "addr:postcode": "10010",
+    "addr:street": "Broadway",
+    "building": "yes",
+    "building:levels": "5",
+    "height": "19.3",
+    "nycdoitt:bin": "1016241"
+  }
+},
+{
+  "type": "way",
+  "id": 248773589,
+  "bounds": {
+    "minlat": 40.7402416,
+    "minlon": -73.9899316,
+    "maxlat": 40.7404548,
+    "maxlon": -73.9896547
+  },
+  "geometry": [
+    { "lat": 40.7402416, "lon": -73.9896620 },
+    { "lat": 40.7402575, "lon": -73.9898577 },
+    { "lat": 40.7402902, "lon": -73.9899316 },
+    { "lat": 40.7404548, "lon": -73.9898601 },
+    { "lat": 40.7404175, "lon": -73.9897712 },
+    { "lat": 40.7403646, "lon": -73.9897776 },
+    { "lat": 40.7403040, "lon": -73.9897851 },
+    { "lat": 40.7402935, "lon": -73.9896547 },
+    { "lat": 40.7402803, "lon": -73.9896566 },
+    { "lat": 40.7402416, "lon": -73.9896620 }
+  ],
+  "tags": {
+    "building": "yes",
+    "height": "11.6",
+    "nycdoitt:bin": "1080765"
+  }
+},
+{
+  "type": "way",
+  "id": 248773590,
+  "bounds": {
+    "minlat": 40.7402935,
+    "minlon": -73.9897851,
+    "maxlat": 40.7403646,
+    "maxlon": -73.9896463
+  },
+  "geometry": [
+    { "lat": 40.7402935, "lon": -73.9896547 },
+    { "lat": 40.7403040, "lon": -73.9897851 },
+    { "lat": 40.7403646, "lon": -73.9897776 },
+    { "lat": 40.7403534, "lon": -73.9896463 },
+    { "lat": 40.7402935, "lon": -73.9896547 }
+  ],
+  "tags": {
+    "addr:housenumber": "931",
+    "addr:postcode": "10010",
+    "addr:street": "Broadway",
+    "building": "yes",
+    "height": "11.6",
+    "nycdoitt:bin": "1080766"
+  }
+},
+{
+  "type": "way",
+  "id": 248773591,
+  "bounds": {
+    "minlat": 40.7403534,
+    "minlon": -73.9897776,
+    "maxlat": 40.7404175,
+    "maxlon": -73.9896389
+  },
+  "geometry": [
+    { "lat": 40.7403646, "lon": -73.9897776 },
+    { "lat": 40.7404175, "lon": -73.9897712 },
+    { "lat": 40.7404170, "lon": -73.9897699 },
+    { "lat": 40.7404063, "lon": -73.9896389 },
+    { "lat": 40.7403815, "lon": -73.9896424 },
+    { "lat": 40.7403534, "lon": -73.9896463 },
+    { "lat": 40.7403646, "lon": -73.9897776 }
+  ],
+  "tags": {
+    "addr:housenumber": "933",
+    "addr:postcode": "10010",
+    "addr:street": "Broadway",
+    "branch": "21st & Broadway",
+    "brand": "Le Pain Quotidien",
+    "brand:wikidata": "Q2046903",
+    "building": "yes",
+    "building:levels": "3",
+    "building:use": "foodservice",
+    "check_date": "2025-06-15",
+    "cuisine": "coffee_shop",
+    "delivery": "yes",
+    "disused:amenity": "cafe",
+    "height": "11.6",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "max_level": "2",
+    "name": "Le Pain Quotidien",
+    "nycdoitt:bin": "1080767",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa, Su 08:00-18:00",
+    "outdoor_seating": "yes",
+    "phone": "+1 332-910-6833",
+    "takeaway": "yes",
+    "website": "https://www.lepainquotidien.com/us/en/locations/21st_&_Broadway/921-Broadway",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 248773601,
+  "bounds": {
+    "minlat": 40.7400611,
+    "minlon": -73.9893416,
+    "maxlat": 40.7404330,
+    "maxlon": -73.9888799
+  },
+  "geometry": [
+    { "lat": 40.7401037, "lon": -73.9890001 },
+    { "lat": 40.7401256, "lon": -73.9890510 },
+    { "lat": 40.7400611, "lon": -73.9890989 },
+    { "lat": 40.7401653, "lon": -73.9893416 },
+    { "lat": 40.7404227, "lon": -73.9892598 },
+    { "lat": 40.7404282, "lon": -73.9892551 },
+    { "lat": 40.7404319, "lon": -73.9892480 },
+    { "lat": 40.7404330, "lon": -73.9892395 },
+    { "lat": 40.7404287, "lon": -73.9892263 },
+    { "lat": 40.7404257, "lon": -73.9892194 },
+    { "lat": 40.7403118, "lon": -73.9889540 },
+    { "lat": 40.7403010, "lon": -73.9889621 },
+    { "lat": 40.7402657, "lon": -73.9888799 },
+    { "lat": 40.7401037, "lon": -73.9890001 }
+  ],
+  "tags": {
+    "building": "yes",
+    "height": "26.4",
+    "nycdoitt:bin": "1016277"
+  }
+},
+{
+  "type": "way",
+  "id": 248773605,
+  "bounds": {
+    "minlat": 40.7397400,
+    "minlon": -73.9893753,
+    "maxlat": 40.7401653,
+    "maxlon": -73.9888940
+  },
+  "geometry": [
+    { "lat": 40.7399731, "lon": -73.9888940 },
+    { "lat": 40.7399635, "lon": -73.9889012 },
+    { "lat": 40.7397400, "lon": -73.9890670 },
+    { "lat": 40.7397651, "lon": -73.9891256 },
+    { "lat": 40.7398162, "lon": -73.9890877 },
+    { "lat": 40.7399068, "lon": -73.9890205 },
+    { "lat": 40.7399391, "lon": -73.9890960 },
+    { "lat": 40.7399585, "lon": -73.9890816 },
+    { "lat": 40.7399956, "lon": -73.9891679 },
+    { "lat": 40.7399762, "lon": -73.9891823 },
+    { "lat": 40.7400591, "lon": -73.9893753 },
+    { "lat": 40.7401653, "lon": -73.9893416 },
+    { "lat": 40.7400611, "lon": -73.9890989 },
+    { "lat": 40.7400392, "lon": -73.9890480 },
+    { "lat": 40.7400034, "lon": -73.9889645 },
+    { "lat": 40.7399731, "lon": -73.9888940 }
+  ],
+  "tags": {
+    "building": "yes",
+    "height": "45.5",
+    "nycdoitt:bin": "1016242"
+  }
+},
+{
+  "type": "way",
+  "id": 248773630,
+  "bounds": {
+    "minlat": 40.7404063,
+    "minlon": -73.9900979,
+    "maxlat": 40.7407368,
+    "maxlon": -73.9896132
+  },
+  "geometry": [
+    { "lat": 40.7404170, "lon": -73.9897699 },
+    { "lat": 40.7404175, "lon": -73.9897712 },
+    { "lat": 40.7404548, "lon": -73.9898601 },
+    { "lat": 40.7405545, "lon": -73.9900979 },
+    { "lat": 40.7407368, "lon": -73.9899658 },
+    { "lat": 40.7405889, "lon": -73.9896132 },
+    { "lat": 40.7404063, "lon": -73.9896389 },
+    { "lat": 40.7404170, "lon": -73.9897699 }
+  ],
+  "tags": {
+    "addr:housenumber": "159",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "building:levels": "5",
+    "height": "27.6",
+    "nycdoitt:bin": "1016266"
+  }
+},
+{
+  "type": "way",
+  "id": 248773635,
+  "bounds": {
+    "minlat": 40.7400072,
+    "minlon": -73.9903052,
+    "maxlat": 40.7404057,
+    "maxlon": -73.9896707
+  },
+  "geometry": [
+    { "lat": 40.7402998, "lon": -73.9899532 },
+    { "lat": 40.7402645, "lon": -73.9899788 },
+    { "lat": 40.7401894, "lon": -73.9897931 },
+    { "lat": 40.7401795, "lon": -73.9896707 },
+    { "lat": 40.7400072, "lon": -73.9896949 },
+    { "lat": 40.7402674, "lon": -73.9903052 },
+    { "lat": 40.7404057, "lon": -73.9902058 },
+    { "lat": 40.7403060, "lon": -73.9899680 },
+    { "lat": 40.7402998, "lon": -73.9899532 }
+  ],
+  "tags": {
+    "addr:housenumber": "921",
+    "addr:postcode": "10010",
+    "addr:street": "Broadway",
+    "building": "yes",
+    "height": "61.6",
+    "nycdoitt:bin": "1016239"
+  }
+},
+{
+  "type": "way",
+  "id": 264645672,
+  "bounds": {
+    "minlat": 40.7411475,
+    "minlon": -73.9905551,
+    "maxlat": 40.7414538,
+    "maxlon": -73.9902868
+  },
+  "geometry": [
+    { "lat": 40.7411475, "lon": -73.9904901 },
+    { "lat": 40.7411749, "lon": -73.9905551 },
+    { "lat": 40.7414113, "lon": -73.9903828 },
+    { "lat": 40.7414538, "lon": -73.9903518 },
+    { "lat": 40.7414264, "lon": -73.9902868 },
+    { "lat": 40.7413967, "lon": -73.9903084 },
+    { "lat": 40.7413066, "lon": -73.9903742 },
+    { "lat": 40.7412062, "lon": -73.9904473 },
+    { "lat": 40.7411475, "lon": -73.9904901 }
+  ],
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "10010",
+    "addr:street": "West 22nd Street",
+    "building": "yes",
+    "height": "13.6",
+    "nycdoitt:bin": "1015560"
+  }
+},
+{
+  "type": "way",
+  "id": 264645680,
+  "bounds": {
+    "minlat": 40.7414264,
+    "minlon": -73.9903937,
+    "maxlat": 40.7416672,
+    "maxlon": -73.9901442
+  },
+  "geometry": [
+    { "lat": 40.7414264, "lon": -73.9902868 },
+    { "lat": 40.7414538, "lon": -73.9903518 },
+    { "lat": 40.7414715, "lon": -73.9903937 },
+    { "lat": 40.7416672, "lon": -73.9902511 },
+    { "lat": 40.7416222, "lon": -73.9901442 },
+    { "lat": 40.7415537, "lon": -73.9901940 },
+    { "lat": 40.7414663, "lon": -73.9902577 },
+    { "lat": 40.7414264, "lon": -73.9902868 }
+  ],
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:postcode": "10010",
+    "addr:street": "West 23rd Street",
+    "building": "yes",
+    "height": "21.0",
+    "nycdoitt:bin": "1015567"
+  }
+},
+{
+  "type": "way",
+  "id": 264645687,
+  "bounds": {
+    "minlat": 40.7414439,
+    "minlon": -73.9905019,
+    "maxlat": 40.7417043,
+    "maxlon": -73.9902511
+  },
+  "geometry": [
+    { "lat": 40.7414439, "lon": -73.9904139 },
+    { "lat": 40.7414809, "lon": -73.9905019 },
+    { "lat": 40.7417043, "lon": -73.9903391 },
+    { "lat": 40.7416672, "lon": -73.9902511 },
+    { "lat": 40.7414715, "lon": -73.9903937 },
+    { "lat": 40.7414439, "lon": -73.9904139 }
+  ],
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:postcode": "10010",
+    "addr:street": "West 23rd Street",
+    "building": "yes",
+    "height": "22.3",
+    "nycdoitt:bin": "1015568"
+  }
+},
+{
+  "type": "way",
+  "id": 264645694,
+  "bounds": {
+    "minlat": 40.7414809,
+    "minlon": -73.9905618,
+    "maxlat": 40.7417296,
+    "maxlon": -73.9903391
+  },
+  "geometry": [
+    { "lat": 40.7414809, "lon": -73.9905019 },
+    { "lat": 40.7415062, "lon": -73.9905618 },
+    { "lat": 40.7417296, "lon": -73.9903990 },
+    { "lat": 40.7417043, "lon": -73.9903391 },
+    { "lat": 40.7414809, "lon": -73.9905019 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "16",
+    "addr:postcode": "10010",
+    "addr:state": "NY",
+    "addr:street": "West 23rd Street",
+    "building": "office",
+    "building:levels": "5",
+    "height": "21.0",
+    "nycdoitt:bin": "1015569"
+  }
+},
+{
+  "type": "way",
+  "id": 264645695,
+  "bounds": {
+    "minlat": 40.7405478,
+    "minlon": -73.9908295,
+    "maxlat": 40.7407468,
+    "maxlon": -73.9904658
+  },
+  "geometry": [
+    { "lat": 40.7405478, "lon": -73.9905142 },
+    { "lat": 40.7406799, "lon": -73.9908295 },
+    { "lat": 40.7407468, "lon": -73.9907810 },
+    { "lat": 40.7406148, "lon": -73.9904658 },
+    { "lat": 40.7405478, "lon": -73.9905142 }
+  ],
+  "tags": {
+    "addr:housenumber": "164",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "height": "19.6",
+    "nycdoitt:bin": "1015535"
+  }
+},
+{
+  "type": "way",
+  "id": 264645696,
+  "bounds": {
+    "minlat": 40.7406148,
+    "minlon": -73.9908102,
+    "maxlat": 40.7408200,
+    "maxlon": -73.9904217
+  },
+  "geometry": [
+    { "lat": 40.7406148, "lon": -73.9904658 },
+    { "lat": 40.7407468, "lon": -73.9907810 },
+    { "lat": 40.7407591, "lon": -73.9908102 },
+    { "lat": 40.7408200, "lon": -73.9907661 },
+    { "lat": 40.7406756, "lon": -73.9904217 },
+    { "lat": 40.7406148, "lon": -73.9904658 }
+  ],
+  "tags": {
+    "addr:housenumber": "166",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "building:levels": "6",
+    "height": "23.6",
+    "nycdoitt:bin": "1015536"
+  }
+},
+{
+  "type": "way",
+  "id": 264645697,
+  "bounds": {
+    "minlat": 40.7406756,
+    "minlon": -73.9907661,
+    "maxlat": 40.7409464,
+    "maxlon": -73.9903301
+  },
+  "geometry": [
+    { "lat": 40.7406756, "lon": -73.9904217 },
+    { "lat": 40.7408200, "lon": -73.9907661 },
+    { "lat": 40.7409464, "lon": -73.9906745 },
+    { "lat": 40.7408021, "lon": -73.9903301 },
+    { "lat": 40.7406756, "lon": -73.9904217 }
+  ],
+  "tags": {
+    "addr:housenumber": "168",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "height": "21.4",
+    "nycdoitt:bin": "1015537"
+  }
+},
+{
+  "type": "way",
+  "id": 264645700,
+  "bounds": {
+    "minlat": 40.7410141,
+    "minlon": -73.9904901,
+    "maxlat": 40.7412062,
+    "maxlon": -73.9901309
+  },
+  "geometry": [
+    { "lat": 40.7410141, "lon": -73.9901737 },
+    { "lat": 40.7411475, "lon": -73.9904901 },
+    { "lat": 40.7412062, "lon": -73.9904473 },
+    { "lat": 40.7410728, "lon": -73.9901309 },
+    { "lat": 40.7410141, "lon": -73.9901737 }
+  ],
+  "tags": {
+    "addr:housenumber": "172",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "height": "23.9",
+    "nycdoitt:bin": "1015561"
+  }
+},
+{
+  "type": "way",
+  "id": 264645701,
+  "bounds": {
+    "minlat": 40.7410728,
+    "minlon": -73.9904473,
+    "maxlat": 40.7413066,
+    "maxlon": -73.9900578
+  },
+  "geometry": [
+    { "lat": 40.7411732, "lon": -73.9900578 },
+    { "lat": 40.7410728, "lon": -73.9901309 },
+    { "lat": 40.7412062, "lon": -73.9904473 },
+    { "lat": 40.7413066, "lon": -73.9903742 },
+    { "lat": 40.7413014, "lon": -73.9903620 },
+    { "lat": 40.7411732, "lon": -73.9900578 }
+  ],
+  "tags": {
+    "addr:housenumber": "174",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "height": "23.5",
+    "nycdoitt:bin": "1015562"
+  }
+},
+{
+  "type": "way",
+  "id": 264645702,
+  "bounds": {
+    "minlat": 40.7411732,
+    "minlon": -73.9903620,
+    "maxlat": 40.7413916,
+    "maxlon": -73.9899920
+  },
+  "geometry": [
+    { "lat": 40.7411732, "lon": -73.9900578 },
+    { "lat": 40.7413014, "lon": -73.9903620 },
+    { "lat": 40.7413916, "lon": -73.9902962 },
+    { "lat": 40.7412633, "lon": -73.9899920 },
+    { "lat": 40.7411732, "lon": -73.9900578 }
+  ],
+  "tags": {
+    "addr:housenumber": "178",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "height": "21.9",
+    "nycdoitt:bin": "1015563"
+  }
+},
+{
+  "type": "way",
+  "id": 264645705,
+  "bounds": {
+    "minlat": 40.7412633,
+    "minlon": -73.9903084,
+    "maxlat": 40.7414663,
+    "maxlon": -73.9899413
+  },
+  "geometry": [
+    { "lat": 40.7412633, "lon": -73.9899920 },
+    { "lat": 40.7413916, "lon": -73.9902962 },
+    { "lat": 40.7413967, "lon": -73.9903084 },
+    { "lat": 40.7414264, "lon": -73.9902868 },
+    { "lat": 40.7414663, "lon": -73.9902577 },
+    { "lat": 40.7413329, "lon": -73.9899413 },
+    { "lat": 40.7412633, "lon": -73.9899920 }
+  ],
+  "tags": {
+    "addr:housenumber": "182",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "retail",
+    "height": "20.5",
+    "nycdoitt:bin": "1015564"
+  }
+},
+{
+  "type": "way",
+  "id": 264645706,
+  "bounds": {
+    "minlat": 40.7413329,
+    "minlon": -73.9902577,
+    "maxlat": 40.7415537,
+    "maxlon": -73.9898776
+  },
+  "geometry": [
+    { "lat": 40.7413329, "lon": -73.9899413 },
+    { "lat": 40.7414663, "lon": -73.9902577 },
+    { "lat": 40.7415537, "lon": -73.9901940 },
+    { "lat": 40.7414203, "lon": -73.9898776 },
+    { "lat": 40.7413329, "lon": -73.9899413 }
+  ],
+  "tags": {
+    "addr:housenumber": "184",
+    "addr:postcode": "10010",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "height": "31.8",
+    "nycdoitt:bin": "1015565"
+  }
+},
+{
+  "type": "way",
+  "id": 264645730,
+  "bounds": {
+    "minlat": 40.7411749,
+    "minlon": -73.9908111,
+    "maxlat": 40.7415192,
+    "maxlon": -73.9903828
+  },
+  "geometry": [
+    { "lat": 40.7411749, "lon": -73.9905551 },
+    { "lat": 40.7412828, "lon": -73.9908111 },
+    { "lat": 40.7414962, "lon": -73.9906556 },
+    { "lat": 40.7415192, "lon": -73.9906388 },
+    { "lat": 40.7414823, "lon": -73.9905513 },
+    { "lat": 40.7414061, "lon": -73.9906068 },
+    { "lat": 40.7413723, "lon": -73.9905266 },
+    { "lat": 40.7414485, "lon": -73.9904710 },
+    { "lat": 40.7414113, "lon": -73.9903828 },
+    { "lat": 40.7411749, "lon": -73.9905551 }
+  ],
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:postcode": "10010",
+    "addr:street": "West 22nd Street",
+    "building": "yes",
+    "height": "41.5",
+    "nycdoitt:bin": "1015559"
+  }
+},
+{
+  "type": "way",
+  "id": 264645755,
+  "bounds": {
+    "minlat": 40.7407816,
+    "minlon": -73.9909172,
+    "maxlat": 40.7410615,
+    "maxlon": -73.9906604
+  },
+  "geometry": [
+    { "lat": 40.7410615, "lon": -73.9907380 },
+    { "lat": 40.7410290, "lon": -73.9906604 },
+    { "lat": 40.7407816, "lon": -73.9908396 },
+    { "lat": 40.7408141, "lon": -73.9909172 },
+    { "lat": 40.7408231, "lon": -73.9909106 },
+    { "lat": 40.7409014, "lon": -73.9908539 },
+    { "lat": 40.7410615, "lon": -73.9907380 }
+  ],
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:postcode": "10010",
+    "addr:street": "West 22nd Street",
+    "building": "yes",
+    "height": "43.2",
+    "nycdoitt:bin": "1015539"
+  }
+},
+{
+  "type": "way",
+  "id": 264645807,
+  "bounds": {
+    "minlat": 40.7403979,
+    "minlon": -73.9910792,
+    "maxlat": 40.7408007,
+    "maxlon": -73.9905034
+  },
+  "geometry": [
+    { "lat": 40.7405433, "lon": -73.9905034 },
+    { "lat": 40.7404012, "lon": -73.9906062 },
+    { "lat": 40.7403979, "lon": -73.9906237 },
+    { "lat": 40.7405904, "lon": -73.9910792 },
+    { "lat": 40.7408007, "lon": -73.9909269 },
+    { "lat": 40.7407691, "lon": -73.9908513 },
+    { "lat": 40.7407077, "lon": -73.9908957 },
+    { "lat": 40.7406799, "lon": -73.9908295 },
+    { "lat": 40.7405478, "lon": -73.9905142 },
+    { "lat": 40.7405433, "lon": -73.9905034 }
+  ],
+  "tags": {
+    "building": "yes",
+    "building:colour": "#D9C4A3",
+    "building:levels": "11",
+    "height": "46.0",
+    "nycdoitt:bin": "1015534",
+    "roof:material": "concrete",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 264645843,
+  "bounds": {
+    "minlat": 40.7414203,
+    "minlon": -73.9901940,
+    "maxlat": 40.7416222,
+    "maxlon": -73.9898278
+  },
+  "geometry": [
+    { "lat": 40.7415537, "lon": -73.9901940 },
+    { "lat": 40.7416222, "lon": -73.9901442 },
+    { "lat": 40.7414888, "lon": -73.9898278 },
+    { "lat": 40.7414203, "lon": -73.9898776 },
+    { "lat": 40.7415537, "lon": -73.9901940 }
+  ],
+  "tags": {
+    "building": "yes",
+    "height": "31.1",
+    "nycdoitt:bin": "1015566"
+  }
+},
+{
+  "type": "way",
+  "id": 264645871,
+  "bounds": {
+    "minlat": 40.7407975,
+    "minlon": -73.9906992,
+    "maxlat": 40.7410153,
+    "maxlon": -73.9902701
+  },
+  "geometry": [
+    { "lat": 40.7409567, "lon": -73.9906992 },
+    { "lat": 40.7410005, "lon": -73.9906675 },
+    { "lat": 40.7409911, "lon": -73.9906452 },
+    { "lat": 40.7410153, "lon": -73.9906277 },
+    { "lat": 40.7408654, "lon": -73.9902701 },
+    { "lat": 40.7407975, "lon": -73.9903193 },
+    { "lat": 40.7408021, "lon": -73.9903301 },
+    { "lat": 40.7409464, "lon": -73.9906745 },
+    { "lat": 40.7409567, "lon": -73.9906992 }
+  ],
+  "tags": {
+    "building": "yes",
+    "height": "54.1",
+    "nycdoitt:bin": "1015538"
+  }
+},
+{
+  "type": "way",
+  "id": 264768896,
+  "bounds": {
+    "minlat": 40.7407596,
+    "minlon": -73.9898715,
+    "maxlat": 40.7413004,
+    "maxlon": -73.9895014
+  },
+  "geometry": [
+    { "lat": 40.7407597, "lon": -73.9896051 },
+    { "lat": 40.7407617, "lon": -73.9896147 },
+    { "lat": 40.7407622, "lon": -73.9896160 },
+    { "lat": 40.7407635, "lon": -73.9896191 },
+    { "lat": 40.7407686, "lon": -73.9896310 },
+    { "lat": 40.7407700, "lon": -73.9896342 },
+    { "lat": 40.7408641, "lon": -73.9898548 },
+    { "lat": 40.7408670, "lon": -73.9898591 },
+    { "lat": 40.7408739, "lon": -73.9898660 },
+    { "lat": 40.7408821, "lon": -73.9898703 },
+    { "lat": 40.7408907, "lon": -73.9898715 },
+    { "lat": 40.7408994, "lon": -73.9898697 },
+    { "lat": 40.7409073, "lon": -73.9898650 },
+    { "lat": 40.7410978, "lon": -73.9897246 },
+    { "lat": 40.7411808, "lon": -73.9896634 },
+    { "lat": 40.7412105, "lon": -73.9896415 },
+    { "lat": 40.7412883, "lon": -73.9895841 },
+    { "lat": 40.7412942, "lon": -73.9895751 },
+    { "lat": 40.7412983, "lon": -73.9895644 },
+    { "lat": 40.7412995, "lon": -73.9895586 },
+    { "lat": 40.7413004, "lon": -73.9895467 },
+    { "lat": 40.7412989, "lon": -73.9895349 },
+    { "lat": 40.7412974, "lon": -73.9895293 },
+    { "lat": 40.7412928, "lon": -73.9895190 },
+    { "lat": 40.7412898, "lon": -73.9895144 },
+    { "lat": 40.7412827, "lon": -73.9895070 },
+    { "lat": 40.7412649, "lon": -73.9895014 },
+    { "lat": 40.7410206, "lon": -73.9895356 },
+    { "lat": 40.7407764, "lon": -73.9895699 },
+    { "lat": 40.7407697, "lon": -73.9895745 },
+    { "lat": 40.7407645, "lon": -73.9895815 },
+    { "lat": 40.7407610, "lon": -73.9895903 },
+    { "lat": 40.7407596, "lon": -73.9895978 },
+    { "lat": 40.7407597, "lon": -73.9896051 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:housename": "Flatiron",
+    "addr:housenumber": "175",
+    "addr:postcode": "10010",
+    "addr:state": "NY",
+    "addr:street": "5th Avenue",
+    "architect": "Daniel H. Burnham",
+    "architect:wikidata": "Q316639",
+    "architect:wikipedia": "en:Daniel Burnham",
+    "building": "office",
+    "building:colour": "#CBC7AC",
+    "building:levels": "21",
+    "designation": "Office building",
+    "height": "86",
+    "name": "Flatiron Building",
+    "name:en": "Flatiron Building",
+    "name:es": "Edificio Flatiron",
+    "name:fa": "ساختمان فلاتایرون",
+    "name:he": "בניין פלאטאיירון",
+    "name:hi": "फ्लाटिरोन बिल्डिंग",
+    "name:ko": "플랫아이언 빌딩",
+    "name:ru": "Флэтайрон-билдинг",
+    "nycdoitt:bin": "1016278",
+    "old_name": "Fuller Building",
+    "ref:nrhp": "79001603",
+    "roof:colour": "light_gray",
+    "roof:shape": "flat",
+    "start_date": "1902",
+    "tourism": "attraction",
+    "wikidata": "Q220728",
+    "wikipedia": "en:Flatiron Building"
+  }
+},
+{
+  "type": "way",
+  "id": 264768897,
+  "bounds": {
+    "minlat": 40.7406737,
+    "minlon": -73.9886442,
+    "maxlat": 40.7409331,
+    "maxlon": -73.9883431
+  },
+  "geometry": [
+    { "lat": 40.7406737, "lon": -73.9884834 },
+    { "lat": 40.7407414, "lon": -73.9886442 },
+    { "lat": 40.7407603, "lon": -73.9886303 },
+    { "lat": 40.7409118, "lon": -73.9885208 },
+    { "lat": 40.7409331, "lon": -73.9885051 },
+    { "lat": 40.7408649, "lon": -73.9883431 },
+    { "lat": 40.7406737, "lon": -73.9884834 }
+  ],
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:postcode": "10010",
+    "addr:street": "East 23rd Street",
+    "building": "yes",
+    "height": "22.1",
+    "nycdoitt:bin": "1016303"
+  }
+},
+{
+  "type": "way",
+  "id": 264768900,
+  "bounds": {
+    "minlat": 40.7404317,
+    "minlon": -73.9888283,
+    "maxlat": 40.7406633,
+    "maxlon": -73.9886025
+  },
+  "geometry": [
+    { "lat": 40.7404317, "lon": -73.9887460 },
+    { "lat": 40.7404661, "lon": -73.9888283 },
+    { "lat": 40.7405046, "lon": -73.9887997 },
+    { "lat": 40.7405403, "lon": -73.9887749 },
+    { "lat": 40.7406633, "lon": -73.9886849 },
+    { "lat": 40.7406289, "lon": -73.9886025 },
+    { "lat": 40.7404317, "lon": -73.9887460 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "11",
+    "addr:postcode": "10010",
+    "addr:street": "East 22nd Street",
+    "building": "yes",
+    "building:colour": "#E1DEC2",
+    "building:levels": "8",
+    "height": "33.8",
+    "nycdoitt:bin": "1016279",
+    "roof:material": "concrete",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 264768909,
+  "bounds": {
+    "minlat": 40.7402387,
+    "minlon": -73.9887460,
+    "maxlat": 40.7406393,
+    "maxlon": -73.9881356
+  },
+  "geometry": [
+    { "lat": 40.7404462, "lon": -73.9881356 },
+    { "lat": 40.7403883, "lon": -73.9881776 },
+    { "lat": 40.7402387, "lon": -73.9882863 },
+    { "lat": 40.7404317, "lon": -73.9887460 },
+    { "lat": 40.7406289, "lon": -73.9886025 },
+    { "lat": 40.7406393, "lon": -73.9885950 },
+    { "lat": 40.7405469, "lon": -73.9883752 },
+    { "lat": 40.7405134, "lon": -73.9882954 },
+    { "lat": 40.7404462, "lon": -73.9881356 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "21",
+    "addr:postcode": "10010",
+    "addr:street": "East 22nd Street",
+    "building": "yes",
+    "building:colour": "#E1DBD1",
+    "building:levels": "12",
+    "height": "45.6",
+    "nycdoitt:bin": "1016280",
+    "roof:material": "concrete",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 264768942,
+  "bounds": {
+    "minlat": 40.7406312,
+    "minlon": -73.9891366,
+    "maxlat": 40.7411169,
+    "maxlon": -73.9885208
+  },
+  "geometry": [
+    { "lat": 40.7407603, "lon": -73.9886303 },
+    { "lat": 40.7408488, "lon": -73.9888409 },
+    { "lat": 40.7408349, "lon": -73.9888510 },
+    { "lat": 40.7408398, "lon": -73.9888628 },
+    { "lat": 40.7407315, "lon": -73.9889416 },
+    { "lat": 40.7407151, "lon": -73.9889026 },
+    { "lat": 40.7406312, "lon": -73.9889636 },
+    { "lat": 40.7406503, "lon": -73.9890105 },
+    { "lat": 40.7406656, "lon": -73.9890480 },
+    { "lat": 40.7407031, "lon": -73.9891366 },
+    { "lat": 40.7411169, "lon": -73.9890037 },
+    { "lat": 40.7409118, "lon": -73.9885208 },
+    { "lat": 40.7407603, "lon": -73.9886303 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "building": "apartments",
+    "building:colour": "#CBC7AC",
+    "building:part": "yes",
+    "height": "83",
+    "name": "Madison Green Residential Plaza",
+    "nycdoitt:bin": "1016304",
+    "roof:material": "concrete",
+    "roof:shape": "flat",
+    "start_date": "1982",
+    "wikidata": "Q6727984"
+  }
+},
+{
+  "type": "way",
+  "id": 265038901,
+  "bounds": {
+    "minlat": 40.7417289,
+    "minlon": -73.9904079,
+    "maxlat": 40.7425871,
+    "maxlon": -73.9893822
+  },
+  "geometry": [
+    { "lat": 40.7423537, "lon": -73.9896611 },
+    { "lat": 40.7422377, "lon": -73.9893822 },
+    { "lat": 40.7421094, "lon": -73.9894070 },
+    { "lat": 40.7420540, "lon": -73.9894177 },
+    { "lat": 40.7420245, "lon": -73.9894392 },
+    { "lat": 40.7418714, "lon": -73.9895507 },
+    { "lat": 40.7417289, "lon": -73.9896546 },
+    { "lat": 40.7420461, "lon": -73.9904079 },
+    { "lat": 40.7421996, "lon": -73.9902988 },
+    { "lat": 40.7422649, "lon": -73.9902498 },
+    { "lat": 40.7423012, "lon": -73.9902226 },
+    { "lat": 40.7423448, "lon": -73.9903263 },
+    { "lat": 40.7423285, "lon": -73.9903381 },
+    { "lat": 40.7423528, "lon": -73.9903961 },
+    { "lat": 40.7425871, "lon": -73.9902258 },
+    { "lat": 40.7423785, "lon": -73.9897202 },
+    { "lat": 40.7423537, "lon": -73.9896611 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "200",
+    "addr:state": "NY",
+    "addr:street": "5th Avenue",
+    "building": "yes",
+    "building:levels": "16",
+    "height": "65.7",
+    "nycdoitt:bin": "1015583",
+    "old_name": "International Toy Center"
+  }
+},
+{
+  "type": "way",
+  "id": 292846304,
+  "bounds": {
+    "minlat": 40.7406243,
+    "minlon": -73.9914977,
+    "maxlat": 40.7412484,
+    "maxlon": -73.9907380
+  },
+  "geometry": [
+    { "lat": 40.7407670, "lon": -73.9914977 },
+    { "lat": 40.7406243, "lon": -73.9911603 },
+    { "lat": 40.7407960, "lon": -73.9910360 },
+    { "lat": 40.7408571, "lon": -73.9909917 },
+    { "lat": 40.7408231, "lon": -73.9909106 },
+    { "lat": 40.7409014, "lon": -73.9908539 },
+    { "lat": 40.7410615, "lon": -73.9907380 },
+    { "lat": 40.7412484, "lon": -73.9911771 },
+    { "lat": 40.7410933, "lon": -73.9912902 },
+    { "lat": 40.7410573, "lon": -73.9913164 },
+    { "lat": 40.7410728, "lon": -73.9913530 },
+    { "lat": 40.7410074, "lon": -73.9914006 },
+    { "lat": 40.7409822, "lon": -73.9913409 },
+    { "lat": 40.7409372, "lon": -73.9913737 },
+    { "lat": 40.7407670, "lon": -73.9914977 }
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "18",
+    "height": "61",
+    "start_date": "2017"
+  }
+},
+{
+  "type": "way",
+  "id": 1112436284,
+  "bounds": {
+    "minlat": 40.7410779,
+    "minlon": -73.9893425,
+    "maxlat": 40.7411418,
+    "maxlon": -73.9892908
+  },
+  "geometry": [
+    { "lat": 40.7411418, "lon": -73.9893279 },
+    { "lat": 40.7410832, "lon": -73.9893425 },
+    { "lat": 40.7410779, "lon": -73.9893054 },
+    { "lat": 40.7411365, "lon": -73.9892908 },
+    { "lat": 40.7411418, "lon": -73.9893279 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:postcode": "10010",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "building": "yes",
+    "name": "Flat Iron Plate",
+    "phone": "+19174163314",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "way",
+  "id": 1112436288,
+  "bounds": {
+    "minlat": 40.7410539,
+    "minlon": -73.9887359,
+    "maxlat": 40.7410852,
+    "maxlon": -73.9886846
+  },
+  "geometry": [
+    { "lat": 40.7410852, "lon": -73.9887258 },
+    { "lat": 40.7410716, "lon": -73.9887359 },
+    { "lat": 40.7410539, "lon": -73.9886948 },
+    { "lat": 40.7410674, "lon": -73.9886846 },
+    { "lat": 40.7410852, "lon": -73.9887258 }
+  ],
+  "tags": {
+    "amenity": "shelter",
+    "building": "yes",
+    "shelter_type": "public_transport"
+  }
+},
+{
+  "type": "way",
+  "id": 1112436291,
+  "bounds": {
+    "minlat": 40.7405634,
+    "minlon": -73.9891081,
+    "maxlat": 40.7406656,
+    "maxlon": -73.9890105
+  },
+  "geometry": [
+    { "lat": 40.7406656, "lon": -73.9890480 },
+    { "lat": 40.7405785, "lon": -73.9891081 },
+    { "lat": 40.7405634, "lon": -73.9890719 },
+    { "lat": 40.7406503, "lon": -73.9890105 },
+    { "lat": 40.7406656, "lon": -73.9890480 }
+  ],
+  "tags": {
+    "building": "roof",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1276503472,
+  "bounds": {
+    "minlat": 40.7405046,
+    "minlon": -73.9888770,
+    "maxlat": 40.7405712,
+    "maxlon": -73.9887749
+  },
+  "geometry": [
+    { "lat": 40.7405046, "lon": -73.9887997 },
+    { "lat": 40.7405215, "lon": -73.9888423 },
+    { "lat": 40.7405354, "lon": -73.9888770 },
+    { "lat": 40.7405712, "lon": -73.9888522 },
+    { "lat": 40.7405403, "lon": -73.9887749 },
+    { "lat": 40.7405046, "lon": -73.9887997 }
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "1"
+  }
+}
+
+  ]
+}

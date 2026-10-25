@@ -1,0 +1,11 @@
+Data in this lab: © OpenStreetMap contributors.
+
+data/ (the Overpass response data/overpass.json, the derived data/block.json and the SVG drawings data/*.svg), the
+command files in steps/ that carry its coordinates, and the STL files in out/ that are made from it contain
+information from OpenStreetMap, which is made available under the Open Database License (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Credit: © OpenStreetMap contributors, https://www.openstreetmap.org/copyright
+
+If you alter or build upon this data, you may distribute the result only under the same licence (ODbL 1.0).
+The code in this lab (city/, probe/, tests/, claude-run/, slicer/, video/, proxy/) is under Apache-2.0 (LICENSE).
