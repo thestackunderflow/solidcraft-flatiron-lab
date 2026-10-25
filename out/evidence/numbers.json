@@ -38,5 +38,13 @@
  "tallest_m": "86",
  "slice_time": "3h 6m 33s",
  "slice_g": "103",
- "v22_px_w": "8.3"
+ "v22_px_w": "8.3",
+ "runs": "3",
+ "runs_total_usd": "0.43",
+ "runs_right_size": "3",
+ "runs_height": "3",
+ "runs_north": "3",
+ "runs_fixes": [
+  "scale on import"
+ ]
 }

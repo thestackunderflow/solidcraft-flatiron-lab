@@ -1,0 +1,5 @@
+3 runs · Claude Code · same prompt
+right size: 3 of 3
+height 86 mm: 3 of 3
+narrow end north: 3 of 3
+agent cost: $0.43 at API prices

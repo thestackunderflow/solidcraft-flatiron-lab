@@ -20,7 +20,8 @@ Run the lab (README) to re-make every file below. `tests/test_evidence.py` re-de
 | SolidCraft 0.22.0 (released 24 Oct 2026): the same 8.3 x 15.8 mm and 1,002.0 mm² | | `out/probe/0.22.0/*/summary.json` | measured |
 | Slicer estimate: PrusaSlicer 2.9.2, MK4S 0.4, PLA, 0.2 mm layers, 15% infill: 3h 6m 33s, 103 g, one part, no open edges | | `out/slice/slice-report.json` | measured (estimate) |
 | Thin features in the G-code: a 0.84 mm piece got 1 line (so the rule is 1 mm); the next thinnest piece 5 lines; the Flatiron's narrow end 0.4 mm under its top 4 lines | | `out/slice/thin-*.json` | measured |
-| Agent runs | see `out/runs/SCORES.json` | | measured |
+| Agent runs: Claude Code 2.1.310, claude-sonnet-5-5, the same prompt (it says one unit is one metre, north is up, 1:1000, height tag 86), 3 runs: each imported plainly, read the sketch back (`inspect_design`), re-imported with `scale` 3.7795; right size (STL footprint within 1% of 1,002.0), height 86.0 and north (within 5°) 3 of 3; $0.43 | | `out/runs/SCORES.json`, `out/runs/plain-*/transcript.jsonl`, `run-meta.json`, the shared ledger | measured |
+| Not quoted: run 1's final answer says the long Fifth Ave side is on the east (it is the west side); no Claude text goes on screen | | `out/runs/plain-1/claude-output.json` | checked |
 
 Not claimed: that the Flatiron is 86 m tall (only "OpenStreetMap's height tag says 86"); any print time or strength beyond
 the slicer's estimate; anything about SolidCraft versions other than 0.19.0 and 0.22.0.

@@ -16,6 +16,8 @@ What it found (24-25 Oct 2026):
 - North check: the Flatiron's narrow end points 11.6° east of north on the map and in the model. Written without turning
   north into SVG's screen-up (minus y), the model is a mirror image: 168.4°.
 - The block: 11 buildings on a 120 x 90 x 2 mm plate, joined into one watertight body, 88 mm tall.
+- Claude Code (claude-sonnet-5-5), the same prompt, 3 runs: each imported the drawing, read the sketch back, saw it
+  was about four times too small and re-imported it with `scale` 3.7795. Right size, 86 mm and north 3 of 3; $0.43 in all.
 - SolidCraft 0.22.0 (released 24 Oct 2026) behaves the same.
 Every number and its file: `ACCURACY.md`. Nothing here was printed; times and weights are the slicer's estimate.
 

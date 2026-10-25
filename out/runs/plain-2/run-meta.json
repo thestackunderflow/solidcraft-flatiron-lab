@@ -1,0 +1,1 @@
+{"arm": "plain", "run": "2", "model": "claude-sonnet-5-5", "budget_usd": 1.00, "exit": 0, "hang_killed": 0, "wall_s": 30, "claude_version": "2.1.310 (Claude Code)", "solidcraft": "0.19.0"}
