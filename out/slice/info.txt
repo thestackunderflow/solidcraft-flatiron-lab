@@ -1,0 +1,14 @@
+[model.stl]
+size_x = 120.000000
+size_y = 90.000000
+size_z = 88.000000
+min_x = -60.000000
+min_y = -45.000000
+min_z = 0.000000
+max_x = 60.000000
+max_y = 45.000000
+max_z = 88.000000
+number_of_facets = 340
+manifold = yes
+number_of_parts =  1
+volume = 193970.796875

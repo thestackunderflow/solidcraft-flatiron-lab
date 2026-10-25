@@ -1,0 +1,14 @@
+{
+ "gcode": "block.gcode",
+ "z": 23.0,
+ "y": 80.8,
+ "band_x": [
+  64.9,
+  68.0
+ ],
+ "segments_in_layer": 204,
+ "lines_across": [
+  65.225
+ ],
+ "count": 1
+}

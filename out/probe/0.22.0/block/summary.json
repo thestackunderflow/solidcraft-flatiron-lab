@@ -1,0 +1,35 @@
+{
+ "cell": "block",
+ "version": "0.22.0",
+ "utc": "2026-10-25T00:41:58+00:00",
+ "ok": true,
+ "failed": null,
+ "warnings": [],
+ "bodies": [
+  "Plate"
+ ],
+ "volume_mm3": 193970.802,
+ "bbox_min": [
+  -60.0,
+  -45.0,
+  -0.0
+ ],
+ "bbox_max": [
+  60.0,
+  45.0,
+  88.0
+ ],
+ "size_mm": [
+  120.0,
+  90.0,
+  88.0
+ ],
+ "stl": {
+  "watertight": true,
+  "bodies": 1,
+  "triangles": 340,
+  "volume_mm3": 193970.805
+ },
+ "hand_volume_mm3": 193971.276,
+ "volume_vs_hand_pct": -0.0002
+}

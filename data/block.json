@@ -197,30 +197,6 @@
    ]
   },
   {
-   "id": 264645697,
-   "name": null,
-   "height_tag": "21.4",
-   "levels": null,
-   "height_m": 21.4,
-   "rule": "height tag",
-   "clipped": true,
-   "area_mm2": 4.600987880624643,
-   "mm": [
-    [
-     -60.0,
-     -26.5243
-    ],
-    [
-     -60.0,
-     -21.8644
-    ],
-    [
-     -58.0253,
-     -22.9491
-    ]
-   ]
-  },
-  {
    "id": 264645700,
    "name": null,
    "height_tag": "23.9",
@@ -679,6 +655,11 @@
    "why": "off the plate"
   },
   {
+   "id": 264645697,
+   "why": "sliver under 1 mm",
+   "width_mm": 0.837
+  },
+  {
    "id": 264645730,
    "why": "off the plate"
   },
@@ -738,10 +719,10 @@
  "base_mm": 2.0,
  "scale": "1:1000",
  "counts": {
-  "kept": 12,
-  "height_tag": 11,
+  "kept": 11,
+  "height_tag": 10,
   "rule": 1,
-  "dropped": 25
+  "dropped": 26
  },
- "hand_volume_mm3": 194069.73697022622
+ "hand_volume_mm3": 193971.27582958085
 }

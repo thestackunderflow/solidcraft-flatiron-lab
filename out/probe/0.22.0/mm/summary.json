@@ -1,0 +1,60 @@
+{
+ "cell": "mm",
+ "version": "0.22.0",
+ "utc": "2026-10-25T00:41:58+00:00",
+ "ok": true,
+ "failed": null,
+ "warnings": [],
+ "bodies": [
+  "Flatiron"
+ ],
+ "volume_mm3": 86173.995,
+ "bbox_min": [
+  -19.345,
+  -27.648,
+  0.0
+ ],
+ "bbox_max": [
+  11.87,
+  32.15,
+  86.0
+ ],
+ "size_mm": [
+  31.215,
+  59.798,
+  86.0
+ ],
+ "stl": {
+  "watertight": true,
+  "bodies": 1,
+  "triangles": 128,
+  "volume_mm3": 86173.996
+ },
+ "footprint_mm2": {
+  "measure": 1002.023,
+  "stl": 1002.023,
+  "hand_count": 1002.013
+ },
+ "footprint_vs_hand": 1.00001,
+ "hand_size_mm": [
+  31.216,
+  59.798
+ ],
+ "width_vs_hand": 0.99997,
+ "north_check": {
+  "model": {
+   "bearing_deg": 11.57,
+   "narrow_width": 10.144,
+   "wide_width": 26.596,
+   "narrow_end": "north"
+  },
+  "map": {
+   "bearing_deg": 11.56,
+   "narrow_width": 10.145,
+   "wide_width": 26.594,
+   "narrow_end": "north"
+  },
+  "off_by_deg": 0.01,
+  "same_way": true
+ }
+}

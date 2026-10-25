@@ -11,7 +11,8 @@ M_PER_DEG_N = 110574.0
 M_PER_DEG_E_EQ = 111320.0
 FLOOR_M = 3.0             # the stated rule for a building with no height tag: its floors x 3 m
 DEFAULT_HEIGHT_M = 3.0    # ... and with no floors either: one floor, 3 m (shown as a label in the video)
-SLIVER_MM = 0.8           # thinner than this does not print (two 0.4 mm lines)
+SLIVER_MM = 1.0           # thinner than this does not print well: the plan said 0.8, but PrusaSlicer gave a 0.84 mm
+                          # piece (a corner clipped off at the plate's edge) one line, so 1 mm (out/slice/thin-*.json)
 
 
 def _open(poly):

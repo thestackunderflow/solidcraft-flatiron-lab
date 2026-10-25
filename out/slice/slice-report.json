@@ -1,0 +1,18 @@
+{
+ "info_before_repair": {
+  "size_z_mm": 88.0,
+  "facets": 340,
+  "manifold": true,
+  "open_edges": 0,
+  "parts": 1,
+  "volume_mm3": 193970.796875
+ },
+ "gcode": {
+  "layers": 440,
+  "filament_mm": 34548.53,
+  "filament_g": 103.04,
+  "print_time": "3h 6m 33s",
+  "print_time_min": 186.55
+ },
+ "slicer_messages": []
+}

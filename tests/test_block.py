@@ -1,5 +1,5 @@
 """The block (PLAN rev 2.1 §6.3): every building within the 120 x 90 mm plate around the Flatiron (way 264768896) at
-1:1000, clipped to the plate, slivers under 0.8 mm dropped, a missing height filled by the stated rule, and the command
+1:1000, clipped to the plate, slivers under 1 mm dropped, a missing height filled by the stated rule, and the command
 files: the trap (a drawing with no unit) and the fix (the drawing says millimetres)."""
 import json
 import os
@@ -45,7 +45,7 @@ def test_no_sliver_survives_and_the_dropped_ones_are_listed(block):
     for b in block['buildings']:
         assert not F.is_sliver(b['mm'])
     for d in block['dropped']:
-        assert d['why'] in ('off the plate', 'sliver under 0.8 mm', 'a roof (no walls)')
+        assert d['why'] in ('off the plate', 'sliver under 1 mm', 'a roof (no walls)')
 
 
 def test_a_missing_height_is_labelled_with_its_rule(block):

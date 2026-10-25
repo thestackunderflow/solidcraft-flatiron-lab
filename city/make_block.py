@@ -3,7 +3,7 @@
     python3 city/make_block.py        (after get_data.py; in the lab image)
 
 Map scale 1:1000: 1 m in the city = 1 mm on the print. The plate is 120 x 90 mm around the Flatiron Building, 2 mm thick;
-every building's footprint is clipped to the plate, slivers thinner than 0.8 mm are dropped, and each building stands on
+every building's footprint is clipped to the plate, slivers thinner than 1 mm are dropped, and each building stands on
 the plate at its height (OSM's height tag; with none, its floors x 3 m; with neither, one floor, 3 m: labelled in the video).
 Writes:
   data/block.json            every building kept (corners in mm, height and its rule, area) + what was dropped and why
@@ -49,7 +49,7 @@ def build(overpass):
             dropped.append({'id': w['id'], 'why': 'off the plate'})
             continue
         if F.is_sliver(cut):
-            dropped.append({'id': w['id'], 'why': 'sliver under 0.8 mm', 'width_mm': round(F.strip_width(cut), 3)})
+            dropped.append({'id': w['id'], 'why': 'sliver under 1 mm', 'width_mm': round(F.strip_width(cut), 3)})
             continue
         h, rule = F.height_m(tags)
         kept.append({'id': w['id'], 'name': tags.get('name'), 'height_tag': tags.get('height'),

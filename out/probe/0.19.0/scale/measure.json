@@ -1,0 +1,50 @@
+{
+ "bodies": [
+  {
+   "area_mm2": 14504.33035789879,
+   "bbox": {
+    "max": [
+     71.87,
+     -12.850000000000003,
+     86.00000000000001
+    ],
+    "min": [
+     40.655,
+     -72.64800000000002,
+     0.0
+    ]
+   },
+   "center_of_mass": [
+    59.092790463352486,
+    -45.79956565183679,
+    43.0
+   ],
+   "density_g_cm3": 1.29,
+   "edges": 96,
+   "face_types": {
+    "plane": 34
+   },
+   "faces": 34,
+   "kernel": {
+    "edges": 99,
+    "faces": 35,
+    "shells": 1,
+    "vertices": 66
+   },
+   "mass_g": 111.16445297595,
+   "material": "Default",
+   "name": "Flatiron",
+   "vertices": 64,
+   "volume_mm3": 86173.994555
+  }
+ ],
+ "body_count": 1,
+ "total": {
+  "area_mm2": 14504.33035789879,
+  "edges": 96,
+  "faces": 34,
+  "mass_g": 111.16445297595,
+  "vertices": 64,
+  "volume_mm3": 86173.994555
+ }
+}

@@ -142,3 +142,67 @@ def z_gaps(tris, x, y=0.0):
             zs.append(float(l1 * a[2] + l2 * b[2] + l3 * c[2]))
     solid = _pair(zs)
     return [(solid[i][1], solid[i + 1][0]) for i in range(len(solid) - 1)]
+
+
+# --- flatiron lab additions --------------------------------------------------------------------------------------------
+def volume(tris):
+    """The enclosed volume (divergence theorem: each triangle with the origin makes a signed tetrahedron)."""
+    t = np.asarray(tris, dtype=float)
+    return float(abs(np.einsum('ij,ij->i', t[:, 0], np.cross(t[:, 1], t[:, 2])).sum()) / 6.0)
+
+
+def prism_tris(poly, z0, z1):
+    """A convex outline (counter-clockwise) extruded from z0 to z1, outward-facing: for the tests only."""
+    p = [np.array([x, y]) for x, y in poly]
+    n = len(p)
+    lo = [np.array([q[0], q[1], z0]) for q in p]
+    hi = [np.array([q[0], q[1], z1]) for q in p]
+    out = []
+    for i in range(1, n - 1):
+        out.append([lo[0], lo[i + 1], lo[i]])
+        out.append([hi[0], hi[i], hi[i + 1]])
+    for i in range(n):
+        j = (i + 1) % n
+        out.append([lo[i], lo[j], hi[j]])
+        out.append([lo[i], hi[j], hi[i]])
+    return np.array(out)
+
+
+def poly_segments(poly):
+    p = [tuple(q) for q in poly]
+    if p[0] == p[-1]:
+        p = p[:-1]
+    return [(np.array(p[i], dtype=float), np.array(p[(i + 1) % len(p)], dtype=float)) for i in range(len(p))]
+
+
+def section_segments(tris, z):
+    """The outline of the horizontal section at height z, as 2D segments."""
+    return [(np.asarray(a, dtype=float), np.asarray(b, dtype=float)) for a, b in _section_segments(tris, z)]
+
+
+def prow(segs, at=0.15):
+    """The north check. Find the outline's long axis, measure its width 15% in from each end, and give the compass
+    bearing (degrees clockwise from north, +y) of the narrow end: the Flatiron's narrow end on the map points
+    north-north-east. A mirror image (north and south swapped) points the other way."""
+    pts = np.array([q for s in segs for q in s])
+    c = pts.mean(axis=0)
+    w, v = np.linalg.eigh(np.cov((pts - c).T))
+    u = v[:, int(np.argmax(w))]
+    n = np.array([-u[1], u[0]])
+    t = (pts - c) @ u
+    t0, t1 = float(t.min()), float(t.max())
+
+    def width(tt):
+        s = []
+        for a, b in segs:
+            ta, tb = (a - c) @ u, (b - c) @ u
+            if (ta - tt) * (tb - tt) < 0:
+                q = a + (tt - ta) / (tb - ta) * (b - a)
+                s.append(float((q - c) @ n))
+        return max(s) - min(s) if len(s) >= 2 else 0.0
+
+    wa, wb = width(t0 + at * (t1 - t0)), width(t1 - at * (t1 - t0))
+    d = u if wb < wa else -u
+    bearing = float(np.degrees(np.arctan2(d[0], d[1])) % 360.0)
+    return {'bearing_deg': round(bearing, 2), 'narrow_width': round(min(wa, wb), 3), 'wide_width': round(max(wa, wb), 3),
+            'narrow_end': 'north' if d[1] > 0 else 'south'}
