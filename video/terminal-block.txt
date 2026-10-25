@@ -1,0 +1,5 @@
+11 buildings on a 120 x 90 mm plate
+10 with a height tag, 1 by our rule
+1 body, watertight, 88 mm tall
+volume 193,971 mm3
+hand count 193,971 mm3

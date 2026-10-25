@@ -113,3 +113,19 @@ def test_svg_turns_north_into_screen_up():
 def test_svg_one_path_per_building_with_its_id():
     s = F.svg_text([('w1', [(0, 0), (1, 0), (1, 1)]), ('w2', [(2, 2), (3, 2), (3, 3)])], 120, 90)
     assert s.count('<path ') == 2 and 'id="w1"' in s and 'id="w2"' in s
+
+
+def test_svg_header_lines_fit_a_phone_card():
+    """The video shows the drawing's first lines as they are in the file: each fits 44 columns."""
+    for unit, n in ((None, 2), ('mm', 3)):
+        head = F.svg_text([('b1', [(0, 0), (1, 0), (1, 1)])], 120, 90, unit=unit).splitlines()[:n]
+        assert all(len(l) <= 44 for l in head), head
+        assert head[-1].endswith('>') and not any(l.endswith('>') for l in head[:-1])
+
+
+def test_corner_is_what_to_metres_uses_and_fits_a_card():
+    """The video's Python card: one corner (longitude, latitude) in, millimetres at 1:1000 out, in six short rows."""
+    import inspect
+    assert F.corner(-73.999, 40.001, -74.0, 40.0) == pytest.approx(F.to_metres(ll([(40.001, -73.999)]), 40.0, -74.0)[0])
+    src = inspect.getsource(F.corner).splitlines()
+    assert len(src) <= 6 and all(len(l) <= 45 for l in src)

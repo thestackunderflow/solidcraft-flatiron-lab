@@ -1,0 +1,17 @@
+....................F                                                    [100%]
+=================================== FAILURES ===================================
+____________________ test_svg_header_lines_fit_a_phone_card ____________________
+
+    def test_svg_header_lines_fit_a_phone_card():
+        """The video shows the drawing's first lines as they are in the file: each fits 44 columns."""
+        for unit, n in ((None, 2), ('mm', 3)):
+            head = F.svg_text([('b1', [(0, 0), (1, 0), (1, 1)])], 120, 90, unit=unit).splitlines()[:n]
+>           assert all(len(l) <= 44 for l in head), head
+E           AssertionError: ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -45 120 90">', '<path id="b1" d="M 0.000 0.000 L 1.000 0.000 L 1.000 -1.000 Z"/>']
+E           assert False
+E            +  where False = all(<generator object test_svg_header_lines_fit_a_phone_card.<locals>.<genexpr> at 0x75b6f113a400>)
+
+tests/test_footprints.py:122: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_footprints.py::test_svg_header_lines_fit_a_phone_card - Ass...
+1 failed, 20 passed in 0.09s

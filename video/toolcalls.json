@@ -1,0 +1,23 @@
+[
+ {
+  "id": "tc-import",
+  "evidence": "out/probe/0.19.0/px/transcript.jsonl#seq=8",
+  "tool": "batch",
+  "result": "\"ok\": true",
+  "plain": "drawing in, raised to 86: ok, no warning"
+ },
+ {
+  "id": "tc-px-volume",
+  "evidence": "out/probe/0.19.0/px/transcript.jsonl#seq=10",
+  "tool": "measure",
+  "result": "\"volume_mm3\": 6032.553637923588",
+  "plain": "volume / 86 = 70.1 mm2 of floor"
+ },
+ {
+  "id": "tc-mm-volume",
+  "evidence": "out/probe/0.19.0/mm/transcript.jsonl#seq=10",
+  "tool": "measure",
+  "result": "\"volume_mm3\": 86173.99455500001",
+  "plain": "volume / 86 = 1,002.0 mm2 of floor"
+ }
+]

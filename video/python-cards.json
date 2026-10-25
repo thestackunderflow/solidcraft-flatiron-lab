@@ -1,0 +1,18 @@
+[
+ {
+  "id": "py-corner",
+  "src": "city/footprints.py#L36-41",
+  "focus": [
+   38
+  ],
+  "note": "one corner (longitude, latitude) in: degrees east times metres per degree"
+ },
+ {
+  "id": "py-mm",
+  "src": "city/footprints.py#L36-41",
+  "focus": [
+   41
+  ],
+  "note": "metres in the city = millimetres at 1:1000"
+ }
+]

@@ -1,0 +1,14 @@
+.....................F                                                   [100%]
+=================================== FAILURES ===================================
+______________ test_corner_is_what_to_metres_uses_and_fits_a_card ______________
+
+    def test_corner_is_what_to_metres_uses_and_fits_a_card():
+        """The video's Python card: one corner (longitude, latitude) in, millimetres at 1:1000 out, in six short rows."""
+        import inspect
+>       assert F.corner(-73.999, 40.001, -74.0, 40.0) == pytest.approx(F.to_metres(ll([(40.001, -73.999)]), 40.0, -74.0)[0])
+E       AttributeError: module 'city.footprints' has no attribute 'corner'
+
+tests/test_footprints.py:129: AttributeError
+=========================== short test summary info ============================
+FAILED tests/test_footprints.py::test_corner_is_what_to_metres_uses_and_fits_a_card
+1 failed, 21 passed in 0.09s

@@ -28,10 +28,22 @@ def centre(geom):
     return (sum(p[0] for p in pts) / len(pts), sum(p[1] for p in pts) / len(pts))
 
 
+def east_m(lat0):
+    """Metres per degree east at latitude lat0 (about: a sphere)."""
+    return M_PER_DEG_E_EQ * math.cos(math.radians(lat0))
+
+
+def corner(lon, lat, lon0, lat0):
+    # one corner in: longitude, latitude
+    east = (lon - lon0) * east_m(lat0)
+    north = (lat - lat0) * M_PER_DEG_N
+    # metres in the city = mm at 1:1000
+    return east, north
+
+
 def to_metres(geom, lat0, lon0):
-    """One corner (longitude, latitude) -> metres east and north of (lat0, lon0)."""
-    kx = M_PER_DEG_E_EQ * math.cos(math.radians(lat0))
-    return [((p['lon'] - lon0) * kx, (p['lat'] - lat0) * M_PER_DEG_N) for p in geom]
+    """Every corner -> metres east and north of (lat0, lon0)."""
+    return [corner(p['lon'], p['lat'], lon0, lat0) for p in geom]
 
 
 def area(poly):
@@ -143,8 +155,10 @@ def svg_text(paths, w, h, unit=None):
     """An SVG drawing of outlines in metres, centred on (0, 0), north up. SVG's y grows downward, so north is written
     as -y. With unit='mm' the drawing says how big it is (width="120mm"): one drawing unit = one millimetre. Without a
     unit, the numbers are just numbers, and an SVG reader takes them as screen pixels."""
-    size = f' width="{w:g}{unit}" height="{h:g}{unit}"' if unit else ''
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg"{size} viewBox="{-w / 2:g} {-h / 2:g} {w:g} {h:g}">']
+    out = ['<svg xmlns="http://www.w3.org/2000/svg"']          # one attribute group per line: a 44-column card shows them
+    if unit:
+        out.append(f'  width="{w:g}{unit}" height="{h:g}{unit}"')
+    out.append(f'  viewBox="{-w / 2:g} {-h / 2:g} {w:g} {h:g}">')
     for pid, poly in paths:
         p = _open(poly)
         d = 'M ' + ' L '.join(f'{x:.3f} {-y + 0.0:.3f}' for x, y in p) + ' Z'

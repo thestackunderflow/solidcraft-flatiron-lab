@@ -1,0 +1,6 @@
+fresh build · the drawing says mm
+footprint 1,002.0 mm2 (volume / 86)
+hand count 1,002.0 mm2
+height 86.0 mm · OSM's tag "86"
+narrow end points 11.6°
+the map's narrow end: 11.6°

@@ -1,0 +1,5 @@
+imported drawing, no unit:
+  8.3 x 15.8 mm, 86.0 tall
+OSM's corners at 1 : 1000:
+  31.2 x 59.8 mm
+0.26 as wide: about a quarter
