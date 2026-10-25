@@ -10,7 +10,7 @@ import math
 M_PER_DEG_N = 110574.0
 M_PER_DEG_E_EQ = 111320.0
 FLOOR_M = 3.0             # the stated rule for a building with no height tag: its floors x 3 m
-DEFAULT_HEIGHT_M = 10.0   # ... and with no floors either: 10 m (shown as a label in the video)
+DEFAULT_HEIGHT_M = 3.0    # ... and with no floors either: one floor, 3 m (shown as a label in the video)
 SLIVER_MM = 0.8           # thinner than this does not print (two 0.4 mm lines)
 
 
@@ -123,7 +123,7 @@ def _num(text):
 
 
 def height_m(tags):
-    """(metres, which rule): OSM's height tag (text, e.g. "86") when there is one; else floors x 3 m; else 10 m."""
+    """(metres, which rule): OSM's height tag (text, e.g. "86") when there is one; else floors x 3 m; else one floor, 3 m."""
     if 'height' in tags:
         try:
             return _num(tags['height']), 'height tag'
@@ -135,7 +135,7 @@ def height_m(tags):
             return n * FLOOR_M, f'no height tag: {n:g} floors x {FLOOR_M:g} m'
         except ValueError:
             pass
-    return DEFAULT_HEIGHT_M, f'no height tag, no floors: {DEFAULT_HEIGHT_M:g} m'
+    return DEFAULT_HEIGHT_M, f'no height tag, no floors: one floor, {DEFAULT_HEIGHT_M:g} m'
 
 
 def svg_text(paths, w, h, unit=None):

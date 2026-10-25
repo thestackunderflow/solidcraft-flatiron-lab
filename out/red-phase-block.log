@@ -1,0 +1,15 @@
+
+==================================== ERRORS ====================================
+_____________________ ERROR collecting tests/test_block.py _____________________
+ImportError while importing test module '/work/tests/test_block.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_block.py:13: in <module>
+    from city import make_block as B  # noqa: E402
+E   ImportError: cannot import name 'make_block' from 'city' (/work/tests/../city/__init__.py)
+=========================== short test summary info ============================
+ERROR tests/test_block.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.08s
