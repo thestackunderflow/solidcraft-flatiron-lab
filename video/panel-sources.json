@@ -1,0 +1,217 @@
+{
+ "lab": "solidcraft-flatiron-lab",
+ "commit": "458e5bb130af9d44faad4028ebe3e3ed352dcea4",
+ "note": "every card pins solidcraft-flatiron-lab@<commit>:<path>; sha256 of the committed blob",
+ "sources": [
+  {
+   "path": "city/footprints.py",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:city/footprints.py",
+   "sha256": "910e4119c96c12538718b0893e31644527fc2d88c67819ad22be2db923a39e24"
+  },
+  {
+   "path": "claude-run/run.sh",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:claude-run/run.sh",
+   "sha256": "a39939958bb1c057a09a179160bb9c8b2d47852206ca341132edf677e0c49e99"
+  },
+  {
+   "path": "data/SOURCE.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:data/SOURCE.json",
+   "sha256": "1f9bda7e0a99cebef6eceda9b093c9ce337b992f57e615924c50fcd9ac0f92e0"
+  },
+  {
+   "path": "data/block.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:data/block.json",
+   "sha256": "5349d16387cc01a59d361ba594a7ca0363b0b339d93dc09ebdc7242faa407268"
+  },
+  {
+   "path": "data/flatiron-mm.svg",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:data/flatiron-mm.svg",
+   "sha256": "c024a8afac3ec6efc87b4b3b27af27e0c6e1827f3a86a1e71b7f405421a99980"
+  },
+  {
+   "path": "data/flatiron.svg",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:data/flatiron.svg",
+   "sha256": "1347d0f34c9dd78dd7361731f890a49d9d14cb722259917054099caa8fcd0f1b"
+  },
+  {
+   "path": "data/overpass.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:data/overpass.json",
+   "sha256": "c763a956b60f9b60896e6dad3606623f768a02ad9e6512115acd7514e1d210e0"
+  },
+  {
+   "path": "out/evidence/grid-count.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:out/evidence/grid-count.json",
+   "sha256": "8651f8277df3a679c0e8db11edf929ded8aef43c68f6a653be030f9aaf3092b9"
+  },
+  {
+   "path": "out/evidence/numbers.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:out/evidence/numbers.json",
+   "sha256": "01732609eb795a8a320b824fcb0e4762a2f8e8283ebed59840f44603458625b2"
+  },
+  {
+   "path": "out/probe/0.19.0/mm/transcript.jsonl",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:out/probe/0.19.0/mm/transcript.jsonl",
+   "sha256": "db90a2b308845770f4ce9f14fe26627cdc850634cdf18f9c46fe0d362febb5c8"
+  },
+  {
+   "path": "out/probe/0.19.0/px/transcript.jsonl",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:out/probe/0.19.0/px/transcript.jsonl",
+   "sha256": "49944495cfffea609ae0af99dd22888055ae3df771e50895384aedea393c6c9b"
+  },
+  {
+   "path": "out/runs/SCORES.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:out/runs/SCORES.json",
+   "sha256": "6be691400942677bbfbde0cbdb483676a2433bc1b2ab8f7ea55583645713e50d"
+  },
+  {
+   "path": "out/slice/slice-report.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:out/slice/slice-report.json",
+   "sha256": "a14b80be18303e16f04e281cc94a143427b29841f39af65bc1338e3a925139e3"
+  },
+  {
+   "path": "steps/block-mm.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:steps/block-mm.json",
+   "sha256": "ede0e93c2897d5c128320eeb02b4f2b52b0e734141a1ff78b3d7214bbe227296"
+  },
+  {
+   "path": "steps/flatiron-mm.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:steps/flatiron-mm.json",
+   "sha256": "131362a7a32a705f108660fd146b7f5cc926ebe1786b755cf0830fe5c90828ea"
+  },
+  {
+   "path": "steps/flatiron-px.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:steps/flatiron-px.json",
+   "sha256": "201398856bfcc4beeab7f8c42c5b4b6cf21826ae112e88e5ec3bba7055a1902c"
+  },
+  {
+   "path": "video/flatiron-tags.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/flatiron-tags.json",
+   "sha256": "4266e0df00edff5e06dd9f691cb0262fb78c5a05ad901b9071207224121799d3"
+  },
+  {
+   "path": "video/frames/block-iso.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/block-iso.png",
+   "sha256": "ca93a82cdcdab128f69d863cd78189b569d39d46999eff8eab1d4b5d2bbb3aa8"
+  },
+  {
+   "path": "video/frames/block-labelled.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/block-labelled.png",
+   "sha256": "49776af32786b4811e2157917620eda483db7d0ff113e8fbaf42318afc0f19de"
+  },
+  {
+   "path": "video/frames/block-se.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/block-se.png",
+   "sha256": "54adb822a4744c7235a392c36d4f624a85f48bcd49b261f9dc327e5626cd862b"
+  },
+  {
+   "path": "video/frames/data-map.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/data-map.png",
+   "sha256": "ddfce75413aceb86765ae7454936ee1629616b962b43a0cb3f4be05e02cac322"
+  },
+  {
+   "path": "video/frames/data-picture.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/data-picture.png",
+   "sha256": "4bf197b73620543d20111ba562d431a7679d5c8bb37ca253ef4d028dd63c7b4c"
+  },
+  {
+   "path": "video/frames/grid-count.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/grid-count.png",
+   "sha256": "2f2bb89f3b3708bcda0fc0790e066d16858982d9ebf5792e3fd68c5d8c88949c"
+  },
+  {
+   "path": "video/frames/grid-picture.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/grid-picture.png",
+   "sha256": "789ed291e3e978b554e9a8dd42de3b077a5a5aab7adf85f6c6bcd5a023c95d93"
+  },
+  {
+   "path": "video/frames/hook-landscape.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/hook-landscape.png",
+   "sha256": "2c195f42d2f5c68ee9913f312668be547826591690a3d5ee8aedcdf7804654b0"
+  },
+  {
+   "path": "video/frames/hook-vertical.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/hook-vertical.png",
+   "sha256": "43796491fd4ad6f180519bb61be30466a13c0e3dd9c35d59357c70fbf3db1da1"
+  },
+  {
+   "path": "video/frames/north-map.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/north-map.png",
+   "sha256": "99844ef0c675ff2ab30410d03139c9b23a17774180f9e176a26b93d68943e157"
+  },
+  {
+   "path": "video/frames/north-mirror.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/north-mirror.png",
+   "sha256": "1bb79cefa9a709a4fbf7ef7efe5af419448f2d7a44f363ae47e2a4353c4d26ec"
+  },
+  {
+   "path": "video/frames/north-model.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/north-model.png",
+   "sha256": "7de14159234fe5fccbea62e8837d6f78c9a27487b4d44507023da2c0440f0fc2"
+  },
+  {
+   "path": "video/frames/north-picture.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/north-picture.png",
+   "sha256": "f60f1afa7229ae7a5c693437a6d938cd351fb75574661c770cd21d3f5c024903"
+  },
+  {
+   "path": "video/frames/pair-front.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/pair-front.png",
+   "sha256": "ec1b088d0489331b78ee7845158d4b7582178ccf67c19f6d0fc7a2acd864d2ab"
+  },
+  {
+   "path": "video/frames/pair-iso.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/pair-iso.png",
+   "sha256": "a8a8dad3ca3ee4446a6453a2e3862b78a464e7a5d31b93921a310fb7569e8f4e"
+  },
+  {
+   "path": "video/frames/pair-labelled.png",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/frames/pair-labelled.png",
+   "sha256": "b84c27f4ad7fcb037757670d25e80ef170d0f9b75b7fc9827eb2eaa3b3c58306"
+  },
+  {
+   "path": "video/json-cards.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/json-cards.json",
+   "sha256": "07708190416320c23308f2b3d74879f747b4c3b1c6ab39a0bd1227297e2549cd"
+  },
+  {
+   "path": "video/python-cards.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/python-cards.json",
+   "sha256": "7df86a6ec14a1a12d579b8d9e013b6ea69cdf724a41b37e4a8f510db3eb66446"
+  },
+  {
+   "path": "video/terminal-block.txt",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/terminal-block.txt",
+   "sha256": "e0f5a4adda71ae482cf1fdd45beccc4ab2081c21f41680a8caf45a1abded63bf"
+  },
+  {
+   "path": "video/terminal-north.txt",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/terminal-north.txt",
+   "sha256": "971103077ed2c749e90ff3cfcbd4afdc04c605185287690e8edad662f08c3fc4"
+  },
+  {
+   "path": "video/terminal-proof.txt",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/terminal-proof.txt",
+   "sha256": "680eb42d170fd4e46479751b88419deaf08d2399e46f2e6f30beaecf9ab7d506"
+  },
+  {
+   "path": "video/terminal-runs.txt",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/terminal-runs.txt",
+   "sha256": "6796af2dc4d4c2a965f45af098a9ee8cacbc57c2d92b1b171d49093b4257d8f5"
+  },
+  {
+   "path": "video/terminal-size.txt",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/terminal-size.txt",
+   "sha256": "c6fc597dfa6de51b6fbfc8a7b4288dbd8855b7947c30156cb3c93ceb8ee020ca"
+  },
+  {
+   "path": "video/terminal-slicer.txt",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/terminal-slicer.txt",
+   "sha256": "120dfa91fb843aef2bf6ce98551a5ae7361c26bec5ce59ffa3857f2e709768d8"
+  },
+  {
+   "path": "video/toolcalls.json",
+   "pin": "solidcraft-flatiron-lab@458e5bb130af9d44faad4028ebe3e3ed352dcea4:video/toolcalls.json",
+   "sha256": "dd3f6a323715f898b561f41ab53f87c8470204c08c67a6afdfd18ac665ca1d36"
+  }
+ ]
+}
